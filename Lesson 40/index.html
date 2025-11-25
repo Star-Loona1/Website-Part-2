@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: #FFFF;
+            text-align: center;
+        }
+        .pimg1,.pimg2,.pimg3,.pimg4{
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .pimg1{
+            background-image: url(bg1.jpg);
+            min-height: 100px;
+        }
+        .pimg2{
+            background-image: url(bg2.jpg);
+            min-height: 400px;
+        }
+        .pimg3{
+            background-image: url(bg3.jpg);
+            min-height: 400px;
+        }
+        .pimg4{
+            background-image: url(bg4.webp);
+            min-height: 400px;
+        }
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+        }
+        .section-light{
+            background-color: #f4f4f4;
+            color: #666;
+        }
+        .section-dark{
+            background-color: midnightblue;
+            color: snow;
+        }
+        .ptext{
+            position: absolute;
+            text-align: center;
+            font-size: 27px;
+            letter-spacing: 8px;
+            top: 50%;
+            width: 100%;
+            color: burlywood;
+            text-transform: uppercase;
+        }
+        .ptext .border .trans{
+            background-color: transparent;
+        }
+        .ptext .border{
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+        }
+        @media(max-width: 568px){
+            .pimg1,.pimg2,.pimg3.pimg4{
+                background-attachment: scroll;
+            }
+        }
+        body{
+            background-color: paleturquoise;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <p>@copy all rights and reserved by Chiemelie Glory Ezeife</p>
+    </div>
+
+    <section>
+        <span class="border trans" style="font-size: 40px;">
+            <center><h2>Welcome all to this Website</h2></center>
+        </span><br>
+    </section>
+
+    <section class="section section-dark">
+        <h2>Food</h2>
+        <p>Food is any substance consumed to provide nutritional support to an organism. Food can be got from animals(like cows, goats, sheep, rabbits, etc), plants(like rice, wheat, mangoes, beets, apples, etc) </p>
+    </section>
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+                Image Two Text
+            </span>
+        </div>
+    </div>
+
+    <p><img src="Margherita-Pizza.jpg" style="float: right; height: 175px; width: 175px; margin-left: 15px;">Pizza[a][1] is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato,
+    cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.
+    Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants,
+    including pizzerias, Mediterranean restaurants, via delivery, and as street food.[9] In Italy, pizza served in a
+    restaurant is presented unsliced, and is eaten with the use of a knife and fork.[10][11] In casual settings, however, it
+    is typically cut into slices to be eaten while held in the hand. Pizza is also sold in grocery stores in a variety of
+    forms, including frozen or as kits for self-assembly. Store-bought pizzas are then cooked using a home oven.
+    </p>
+    <hr>
+    <p><img src="Pizza Roni.webp" style="float: left; height: 175px; width: 175px; margin-right: 15px;">Pizza is sold fresh or frozen, whole or in portion-size slices. Methods have been developed to overcome challenges such
+    as preventing the sauce from combining with the dough, and producing a crust that can be frozen and reheated without
+    becoming rigid. There are frozen pizzas with raw ingredients and self-rising crusts.
+    In the US, another form of pizza is available from take and bake pizzerias. This pizza is assembled in the store, then
+    sold unbaked to customers to bake in their own ovens. Some grocery stores sell fresh dough along with sauce and basic
+    ingredients, to assemble at home before baking in an oven.
+    </p>
+</body>
+</html>
